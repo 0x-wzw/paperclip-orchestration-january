@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "whisper": "^0.3.3",
+    "whisper-transcript": "^0.1.1"
+  }
+}

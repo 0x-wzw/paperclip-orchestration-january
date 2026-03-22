@@ -1,0 +1,58 @@
+{
+  "name": "tavily-mcp",
+  "version": "1.0.0",
+  "description": "Tavily Model Context Protocol integration for web search, data extraction, and web crawling",
+  "author": "January the Swarm Leader",
+  "tags": ["mcp", "tavily", "search", "web", "api", "web-crawling"],
+  "skills": ["web_search", "web_fetch"],
+  "requires_api_key": true,
+  "api_key_source": "tavily.com",
+  "api_key_env": "TAVILY_API_KEY",
+  "configurable_parameters": {
+    "max_results": 10,
+    "search_depth": "basic",
+    "include_images": true,
+    "include_answer": true,
+    "include_raw_content": false
+  },
+  "endpoints": [
+    {
+      "name": "tavily-search",
+      "method": "GET/POST",
+      "description": "Real-time web search"
+    },
+    {
+      "name": "tavily-extract",
+      "method": "POST",
+      "description": "Extract structured data from web pages"
+    },
+    {
+      "name": "tavily-map",
+      "method": "GET",
+      "description": "Create structured maps of websites"
+    },
+    {
+      "name": "tavily-crawl",
+      "method": "POST",
+      "description": "Systematic website crawling"
+    }
+  ],
+  "setup_commands": {
+    "remote": "claude mcp add --transport http tavily https://mcp.tavily.com/mcp/?tavilyApiKey=$TAVILY_API_KEY",
+    "local": "npx -y tavily-mcp@latest"
+  },
+  "example_usage": [
+    "Search for current AI developments",
+    "Extract data from news articles",
+    "Map website structure",
+    "Crawl documentation sites"
+  ],
+  "readme_url": "https://github.com/tavily-ai/tavily-mcp",
+  "documentation_url": "https://docs.tavily.com",
+  "api_docs_url": "https://docs.tavily.com/api",
+  "rate_limits": {
+    "free": 1000,
+    "pro": "contact tavily.com"
+  },
+  "pricing_url": "https://tavily.com/pricing"
+}

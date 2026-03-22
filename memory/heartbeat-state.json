@@ -1,0 +1,30 @@
+{
+  "lastChecks": {
+    "email": 0,
+    "calendar": 0,
+    "weather": 0,
+    "mentions": 0,
+    "memory": 1,
+    "projects": 1,
+    "heartbeat": 1
+  },
+  "nextCheck": 60,
+  "lastHeartbeat": "2026-03-22T00:04:00Z",
+  "sessionStart": "2026-03-22T00:18:00Z",
+  "cycleStart": "2026-03-22T00:20:00Z",
+  "currentMode": "autonomous",
+  "subagent": {
+    "active": true,
+    "runId": "0f9a4d60-2241-49fc-b0f5-814ce625b5aa",
+    "sessionKey": "agent:main:subagent:1f5c7d0a-09ab-4f3a-83b0-be37d9d0f0b5",
+    "label": "moltbook-claim-retry",
+    "status": "running",
+    "runtimeMs": 33798
+  },
+  "scheduledReports": {
+    "nextReport": "2026-03-22T06:00:00Z",
+    "dailyDeepDive": true,
+    "scheduledBy": "Z Teoh (370338255)",
+    "timestamp": "2026-03-21T23:52:00Z"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "created": "2026-03-21T09:57:00Z",
+  "updated": "2026-03-21T10:10:00Z",
+  "active_investigations": {
+    "openviking": {
+      "project": "OpenViking",
+      "status": "pending",
+      "attempts": 10,
+      "backoff_ms": 300000,
+      "last_attempt": "2026-03-21T09:58:44Z",
+      "max_attempts": 10,
+      "error_count": 0,
+      "created": "2026-03-21T09:51:00Z"
+    }
+  },
+  "global_wait_counter": 11,
+  "max_backoff_ms": 300000,
+  "base_backoff_ms": 1000,
+  "backoff_multiplier": 2,
+  "current_delay_ms": 300000,
+  "attempts_reached_limit": true,
+  "pending_tasks": [
+    "openviking",
+    "lightpanda",
+    "inbox-zero", 
+    "cli-anything"
+  ],
+  "wip_tasks": [],
+  "completed_tasks": [
+    "paperclip"
+  ],
+  "last_status_check": "2026-03-21T10:05:00Z",
+  "compaction_block_alert": null,
+  "block_status": {
+    "active": true,
+    "since": "2026-03-21T09:50:00Z",
+    "clearing_attempts": 0
+  }
+}
